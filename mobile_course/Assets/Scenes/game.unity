@@ -189,7 +189,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &424273105
 GameObject:
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 424273106}
   - component: {fileID: 424273107}
   m_Layer: 0
-  m_Name: logo2
+  m_Name: donut3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -216,12 +216,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424273105}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 641, y: 287, z: 0}
+  m_LocalPosition: {x: 1601, y: 827, z: 0}
   m_LocalScale: {x: 43, y: 43, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353810582}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &424273107
 SpriteRenderer:
@@ -286,7 +286,7 @@ GameObject:
   - component: {fileID: 818893771}
   - component: {fileID: 818893772}
   m_Layer: 0
-  m_Name: logo3
+  m_Name: donut4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -300,12 +300,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818893770}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -304, y: -216, z: 0}
+  m_LocalPosition: {x: 656, y: 324, z: 0}
   m_LocalScale: {x: 43, y: 43, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353810582}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &818893772
 SpriteRenderer:
@@ -534,12 +534,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1822378401}
-  - {fileID: 1940426021}
-  - {fileID: 424273106}
-  - {fileID: 818893771}
-  - {fileID: 1559788052}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -559,7 +554,7 @@ GameObject:
   - component: {fileID: 1559788052}
   - component: {fileID: 1559788053}
   m_Layer: 0
-  m_Name: logo4
+  m_Name: donut5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,12 +568,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559788051}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 358, y: -216, z: 0}
+  m_LocalPosition: {x: 1318, y: 324, z: 0}
   m_LocalScale: {x: 43, y: 43, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353810582}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1559788053
 SpriteRenderer:
@@ -643,7 +638,7 @@ GameObject:
   - component: {fileID: 1822378401}
   - component: {fileID: 1822378402}
   m_Layer: 0
-  m_Name: logo
+  m_Name: donut1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,12 +652,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822378400}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -676, y: 287, z: 0}
+  m_LocalPosition: {x: 284, y: 827, z: 0}
   m_LocalScale: {x: 43, y: 43, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353810582}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1822378402
 SpriteRenderer:
@@ -727,7 +722,7 @@ GameObject:
   - component: {fileID: 1940426021}
   - component: {fileID: 1940426022}
   m_Layer: 0
-  m_Name: logo1
+  m_Name: donut2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -741,12 +736,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940426020}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 287, z: 0}
+  m_LocalPosition: {x: 960, y: 827, z: 0}
   m_LocalScale: {x: 43, y: 43, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1353810582}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1940426022
 SpriteRenderer:
