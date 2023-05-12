@@ -2,7 +2,7 @@ using UnityEngine;
 using DG.Tweening;
 using UnityEngine.UI;
 
-public class Active : MonoBehaviour
+public class Activate_Animation : MonoBehaviour
 {
     [SerializeField] GameObject Ground;
     [SerializeField] Button Button;
@@ -28,7 +28,7 @@ public class Active : MonoBehaviour
         _scaleTo = _originalScale / 2;
     }
 
-    //Method that is activate when you click on the button to activate animation
+    //Method to activate the animation when you click on the activate button
     public void Rooling()
     {
         //Change rigidbody from static to Dynmic
