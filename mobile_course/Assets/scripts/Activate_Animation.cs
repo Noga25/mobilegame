@@ -36,7 +36,7 @@ public class Activate_Animation : MonoBehaviour
 
         //Rotate the ground
         Ground.transform.DORotate(new Vector3(360.0f, 360.0f, 0.0f), 5.0f, RotateMode.FastBeyond360).
-            SetLoops(1).SetRelative().SetEase(Ease.Linear);
+        SetLoops(1).SetRelative().SetEase(Ease.Linear);
 
         //Rotate the ball
         Ball.transform.DORotate(new Vector3(0, 0, -360.0f), 5.0f, RotateMode.FastBeyond360).
@@ -46,7 +46,7 @@ public class Activate_Animation : MonoBehaviour
         Destroy(Button);
 
         //Afterwards shrink the button 
-        transform.DOScale(_scaleTo, Duration_Button);
+        transform.DOScale(_scaleTo, Duration_Button).OnStart(() => Debug.Log("The button started to shrink"));
 
         //Activate the method MoveBall with time delay
         Invoke("MoveBall", Delay);
@@ -55,6 +55,6 @@ public class Activate_Animation : MonoBehaviour
     //Moving the ball to the other side of the ground 
     public void MoveBall()
     {
-        Ball.transform.DOMove(TargetTransform.transform.position, Duration_Ball).SetEase(Ease.Flash);
+        Ball.transform.DOMove(TargetTransform.transform.position, Duration_Ball).SetEase(Ease.Flash).OnComplete(() => Debug.Log("The ball arrive to the finish line"));
     }
 }
